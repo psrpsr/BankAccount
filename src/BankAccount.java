@@ -4,7 +4,7 @@ import java.util.List;
 public class BankAccount {
     private double balance;
     private String ownerName;
-    private List<String> transactionLog = new ArrayList<String>();
+    private ArrayList<String> transactionLog = new ArrayList<String>();
     public BankAccount(){
         balance = 0;
         ownerName = "SreenivasaRao";
