@@ -7,7 +7,7 @@ public class BankAccount {
     private ArrayList<String> transactionLog = new ArrayList<String>();
     public BankAccount(){
         balance = 0;
-        ownerName = "SreenivasaRao";
+        ownerName = "SreenivasaRao Pigili";
     }
     public BankAccount(double balance1, String ownerName1){
         balance = balance1;
