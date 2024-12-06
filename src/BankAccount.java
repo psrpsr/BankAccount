@@ -7,7 +7,7 @@ public class BankAccount {
     private ArrayList<String> transactionLog = new ArrayList<String>();
     public BankAccount(){
         balance = 0;
-        ownerName = "SreenivasaRao Pigili";
+        ownerName = "SreenivasaRaoPigili";
     }
     public BankAccount(double balance1, String ownerName1){
         balance = balance1;
@@ -38,10 +38,13 @@ public class BankAccount {
         ownerName = name;
     }
     public void printTransactionLog(){
-        if (transactionLog != null){
-            for(int i = 0; i < transactionLog.size(); i++){
-                System.out.println(transactionLog.get(i));
-            }
+//        if (transactionLog != null){
+//            for(int i = 0; i < transactionLog.size(); i++){
+//                System.out.println(transactionLog.get(i));
+//            }
+//        }
+        for (var log1 : transactionLog){
+            System.out.println(log1);
         }
 
     }
